@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "version": "1.1",
+  "name": "Theme Switcher",
+  "browser_action":
+  {
+    "default_title": "Theme switcher",
+    "default_popup": "switcher.html",
+    "browser_style": true,
+    "default_icon": {
+        "128": "star-half.svg"
+    }
+  },
+  "description": "An example of how to use the management API for themes.",
+  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/theme-switcher",
+  "permissions":
+  [
+    "management"
+  ],
+  "icons":
+  {
+      "128": "star-half.svg"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+        "id": "theme-switcher@sunshine.com",
+        "strict_min_version": "55.0a1"
+    }
+  }
+}
