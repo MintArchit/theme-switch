@@ -1,5 +1,7 @@
 # Theme Switcher
 
+preview
+
 ## What it does
 
 Provides a popup that allows you to see the themes and switch between them.
